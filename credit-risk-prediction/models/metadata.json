@@ -1,0 +1,271 @@
+{
+  "best_model_name": "Gradient Boosting",
+  "risk_median_threshold": 52.0,
+  "numeric_features": [
+    "Age",
+    "AnnualIncome",
+    "CreditScore",
+    "Experience",
+    "LoanAmount",
+    "LoanDuration",
+    "NumberOfDependents",
+    "MonthlyDebtPayments",
+    "CreditCardUtilizationRate",
+    "NumberOfOpenCreditLines",
+    "NumberOfCreditInquiries",
+    "DebtToIncomeRatio",
+    "BankruptcyHistory",
+    "PreviousLoanDefaults",
+    "PaymentHistory",
+    "LengthOfCreditHistory",
+    "SavingsAccountBalance",
+    "CheckingAccountBalance",
+    "TotalAssets",
+    "TotalLiabilities",
+    "MonthlyIncome",
+    "UtilityBillsPaymentHistory",
+    "JobTenure",
+    "NetWorth",
+    "BaseInterestRate",
+    "InterestRate",
+    "MonthlyLoanPayment",
+    "TotalDebtToIncomeRatio",
+    "TotalObligationRatio"
+  ],
+  "categorical_features": [
+    "EmploymentStatus",
+    "EducationLevel",
+    "MaritalStatus",
+    "HomeOwnershipStatus",
+    "LoanPurpose",
+    "AgeGroup"
+  ],
+  "feature_cols": [
+    "Age",
+    "AnnualIncome",
+    "CreditScore",
+    "EmploymentStatus",
+    "EducationLevel",
+    "Experience",
+    "LoanAmount",
+    "LoanDuration",
+    "MaritalStatus",
+    "NumberOfDependents",
+    "HomeOwnershipStatus",
+    "MonthlyDebtPayments",
+    "CreditCardUtilizationRate",
+    "NumberOfOpenCreditLines",
+    "NumberOfCreditInquiries",
+    "DebtToIncomeRatio",
+    "BankruptcyHistory",
+    "LoanPurpose",
+    "PreviousLoanDefaults",
+    "PaymentHistory",
+    "LengthOfCreditHistory",
+    "SavingsAccountBalance",
+    "CheckingAccountBalance",
+    "TotalAssets",
+    "TotalLiabilities",
+    "MonthlyIncome",
+    "UtilityBillsPaymentHistory",
+    "JobTenure",
+    "NetWorth",
+    "BaseInterestRate",
+    "InterestRate",
+    "MonthlyLoanPayment",
+    "TotalDebtToIncomeRatio",
+    "TotalObligationRatio",
+    "AgeGroup"
+  ],
+  "best_params": {
+    "classifier__n_estimators": 300,
+    "classifier__min_samples_split": 10,
+    "classifier__max_depth": 4,
+    "classifier__learning_rate": 0.1
+  },
+  "categorical_options": {
+    "EmploymentStatus": [
+      "Employed",
+      "Self-Employed",
+      "Unemployed"
+    ],
+    "EducationLevel": [
+      "Associate",
+      "Bachelor",
+      "Doctorate",
+      "High School",
+      "Master"
+    ],
+    "MaritalStatus": [
+      "Divorced",
+      "Married",
+      "Single",
+      "Widowed"
+    ],
+    "HomeOwnershipStatus": [
+      "Mortgage",
+      "Other",
+      "Own",
+      "Rent"
+    ],
+    "LoanPurpose": [
+      "Auto",
+      "Debt Consolidation",
+      "Education",
+      "Home",
+      "Other"
+    ],
+    "AgeGroup": [
+      "Middle-aged",
+      "Senior",
+      "Young"
+    ]
+  },
+  "numeric_ranges": {
+    "Age": {
+      "min": 18.0,
+      "max": 80.0,
+      "median": 40.0
+    },
+    "AnnualIncome": {
+      "min": 15000.0,
+      "max": 485341.0,
+      "median": 48566.0
+    },
+    "CreditScore": {
+      "min": 343.0,
+      "max": 712.0,
+      "median": 578.0
+    },
+    "Experience": {
+      "min": 0.0,
+      "max": 61.0,
+      "median": 17.0
+    },
+    "LoanAmount": {
+      "min": 3674.0,
+      "max": 184732.0,
+      "median": 21914.5
+    },
+    "LoanDuration": {
+      "min": 12.0,
+      "max": 120.0,
+      "median": 48.0
+    },
+    "NumberOfDependents": {
+      "min": 0.0,
+      "max": 5.0,
+      "median": 1.0
+    },
+    "MonthlyDebtPayments": {
+      "min": 50.0,
+      "max": 2919.0,
+      "median": 402.0
+    },
+    "CreditCardUtilizationRate": {
+      "min": 0.0009744907528399,
+      "max": 0.9173800815542682,
+      "median": 0.2666726020550306
+    },
+    "NumberOfOpenCreditLines": {
+      "min": 0.0,
+      "max": 13.0,
+      "median": 3.0
+    },
+    "NumberOfCreditInquiries": {
+      "min": 0.0,
+      "max": 7.0,
+      "median": 1.0
+    },
+    "DebtToIncomeRatio": {
+      "min": 0.0017200290084425,
+      "max": 0.9022526895282088,
+      "median": 0.2644540175411533
+    },
+    "BankruptcyHistory": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "PreviousLoanDefaults": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "PaymentHistory": {
+      "min": 8.0,
+      "max": 45.0,
+      "median": 24.0
+    },
+    "LengthOfCreditHistory": {
+      "min": 1.0,
+      "max": 29.0,
+      "median": 15.0
+    },
+    "SavingsAccountBalance": {
+      "min": 73.0,
+      "max": 200089.0,
+      "median": 2986.0
+    },
+    "CheckingAccountBalance": {
+      "min": 24.0,
+      "max": 52572.0,
+      "median": 1116.0
+    },
+    "TotalAssets": {
+      "min": 2098.0,
+      "max": 2619627.0,
+      "median": 60699.0
+    },
+    "TotalLiabilities": {
+      "min": 372.0,
+      "max": 1417302.0,
+      "median": 22203.0
+    },
+    "MonthlyIncome": {
+      "min": 1250.0,
+      "max": 25000.0,
+      "median": 4034.75
+    },
+    "UtilityBillsPaymentHistory": {
+      "min": 0.259203057820703,
+      "max": 0.9994327597206204,
+      "median": 0.8209617609728834
+    },
+    "JobTenure": {
+      "min": 0.0,
+      "max": 16.0,
+      "median": 5.0
+    },
+    "NetWorth": {
+      "min": 1000.0,
+      "max": 2603208.0,
+      "median": 32855.5
+    },
+    "BaseInterestRate": {
+      "min": 0.130101,
+      "max": 0.405029,
+      "median": 0.236157
+    },
+    "InterestRate": {
+      "min": 0.1133095948045364,
+      "max": 0.4467873210539924,
+      "median": 0.2353899899371778
+    },
+    "MonthlyLoanPayment": {
+      "min": 97.03019288626984,
+      "max": 10892.629519897171,
+      "median": 728.5114515123852
+    },
+    "TotalDebtToIncomeRatio": {
+      "min": 0.0160432112095298,
+      "max": 4.647656816403158,
+      "median": 0.30271146497209966
+    },
+    "TotalObligationRatio": {
+      "min": 0.004878390370871191,
+      "max": 39.24341333883675,
+      "median": 0.4772129345651531
+    }
+  }
+}
